@@ -112,6 +112,7 @@ div.carousel-caption button{
 }
 
 .why_section .box{
+  height: 242px;
   text-align: center;
   font-weight: 600;
   border-radius: 9px;
@@ -562,6 +563,25 @@ div.carousel-caption button{
 /* ********** end of Contact us page ********** */
 
 
+/* ********** register page ********** */
+
+.register_section .img_wrap{
+  display: flex;
+  justify-content: center;
+}
+
+.register_section .img-fluid{ 
+  width: 400px; 
+  height: auto;
+}
+
+.register_section{
+  margin-top: 50px;
+}
+
+/* ********** end of register page ********** */
+
+
 /* footer */
 
 footer {
@@ -765,6 +785,14 @@ form input[type="submit"]:focus {
   .locate .open table td{
     padding-right: 12px;
   }
+
+  .register_section .img-fluid{
+    margin-bottom: 30px;
+  }
+
+  .why_section .box{
+    height: 282px;
+  }
 }
 
 /* On screens that are 750px or less */
@@ -774,6 +802,10 @@ form input[type="submit"]:focus {
     margin: 30px;
     padding-right: 30px;
     height: 500px;
+  }
+
+  .contact_section .contact_img_wrap{
+    padding-top: 30px; 
   }
 }
 
@@ -788,7 +820,8 @@ form input[type="submit"]:focus {
   }
 
   .contact_section .contact_img_wrap{
-    text-align: center; 
+    text-align: center;
+    padding-top: 0px;
   }
   
   .billboard_section .carousel-caption h1{
@@ -819,5 +852,22 @@ form input[type="submit"]:focus {
 
   .locate .open table td{
     padding-right: 22px;
+  }
+
+  .register_section .img-fluid{
+    width: 250px;
+  }
+
+  .arrival_section2 .text_box{
+    padding: 40px;
+    margin-left: 0px;
+  }
+
+  .arrival_section2 .arrival2_wrap img{
+    margin-left: 94px;
+  }
+
+  .why_section .box{
+    height: 242px;
   }
 }
